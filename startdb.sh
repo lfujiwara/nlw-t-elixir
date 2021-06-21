@@ -1,0 +1,1 @@
+docker run -e POSTGRES_DB=wabanex_dev -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres -p 5432:5432 --name wabanex_db -d postgres:13-alpine
